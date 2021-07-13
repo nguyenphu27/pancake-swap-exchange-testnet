@@ -27,6 +27,7 @@ if (loadedState.user) {
   loadedState.user.userDarkMode = getThemeCache()
 }
 
+// @ts-ignore
 const store = configureStore({
   reducer: {
     application,
@@ -40,6 +41,7 @@ const store = configureStore({
     toasts
   },
   middleware: [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })],
+  // @ts-ignore
   preloadedState: loadedState,
 })
 

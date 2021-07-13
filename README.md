@@ -1,4 +1,6 @@
-# 🥞 Pancake Swap Exchange
+# 🥞 Pancake Swap Exchange Testnet
+
+Live:
 
 This repo is for developer community to develop and test smart contracts in testnet environment.
 
