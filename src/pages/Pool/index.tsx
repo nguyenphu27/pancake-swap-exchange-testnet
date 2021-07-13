@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
-import { Pair } from '@pancakeswap-libs/sdk'
+import { Pair } from '@nguyenphu27/sdk'
 import { Button, CardBody, Text } from '@nguyenphu27/uikit'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
