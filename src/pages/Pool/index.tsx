@@ -18,6 +18,7 @@ import { toV2LiquidityToken, useTrackedTokenPairs } from 'state/user/hooks'
 import { Dots } from 'components/swap/styleds'
 import useI18n from 'hooks/useI18n'
 import PageHeader from 'components/PageHeader'
+import { Link } from 'react-router-dom'
 import AppBody from '../AppBody'
 
 export default function Pool() {
@@ -62,8 +63,8 @@ export default function Pool() {
           title={TranslateString(262, 'Liquidity')}
           description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
         >
-          <Button id="join-pool-button" disabled mb="16px">
-            {TranslateString(168, "You can't add liquidity on V1")}
+          <Button id="join-pool-button" as={Link} to="/add/BNB">
+            {TranslateString(168, 'Add Liquidity')}
           </Button>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
