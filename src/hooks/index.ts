@@ -1,6 +1,6 @@
 import { Web3Provider } from '@ethersproject/providers'
 import { ChainId } from '@pancakeswap-libs/sdk'
-import { connectorLocalStorageKey } from '@pancakeswap-libs/uikit'
+import { connectorLocalStorageKey } from '@nguyenphu27/uikit'
 import { useWeb3React as useWeb3ReactCore } from '@web3-react/core'
 // eslint-disable-next-line import/no-unresolved
 import { Web3ReactContextInterface } from '@web3-react/core/dist/types'

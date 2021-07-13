@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { ToastContainer, Toast } from '@pancakeswap-libs/uikit'
+import { ToastContainer, Toast } from '@nguyenphu27/uikit'
 import useToast from 'hooks/useToast'
 import { AppState } from '../../state'
 

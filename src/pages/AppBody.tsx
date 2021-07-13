@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card } from '@pancakeswap-libs/uikit'
+import { Card } from '@nguyenphu27/uikit'
 
 export const BodyWrapper = styled(Card)`
   position: relative;
