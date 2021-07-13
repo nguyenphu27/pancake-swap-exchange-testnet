@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, ButtonMenu, ButtonMenuItem, Button, HelpIcon, Link } from '@nguyenphu27/uikit'
+import { Text, Button, InfoIcon, Link } from '@nguyenphu27/uikit'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -22,25 +22,18 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        Version:
+        Source:
       </Text>
-      <ButtonMenu variant="primary" scale="sm" activeIndex={1}>
-        <ButtonMenuItem as="a" href="https://exchange.pancakeswap.finance/">
-          V2
-        </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
-          V1 (old)
-        </ButtonMenuItem>
-      </ButtonMenu>
       <Button
         variant="subtle"
         as={Link}
-        href="https://v1exchange.pancakeswap.finance/#/migrate"
-        endIcon={<HelpIcon color="white" />}
+        href="https://github.com/nguyenphu27/pancake-swap-exchange-testnet"
+        endIcon={<InfoIcon color="white" />}
         scale="sm"
         ml="16px"
+        target="_blank"
       >
-        Help
+        Github
       </Button>
     </Wrapper>
   )
