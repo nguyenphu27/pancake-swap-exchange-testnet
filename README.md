@@ -1,6 +1,6 @@
 # 🥞 Pancake Swap Exchange Testnet
 
-Live at: https://pancakeswap-testnet.netlify.app/
+Live at: https://pancakeswap-exchange-testnet.netlify.app/
 
 This repo is for developer community to develop and test smart contracts in testnet environment.
 
